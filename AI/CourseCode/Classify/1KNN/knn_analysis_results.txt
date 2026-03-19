@@ -1,0 +1,328 @@
+================================================================================
+K近邻分类器参数影响分析
+================================================================================
+
+【1. 测试不同的邻居数量 (n_neighbors)】
+--------------------------------------------------------------------------------
+
+n_neighbors = 1
+准确率: 0.9474
+              precision    recall  f1-score   support
+
+      setosa       1.00      1.00      1.00         8
+  versicolor       0.85      1.00      0.92        11
+   virginica       1.00      0.89      0.94        19
+
+    accuracy                           0.95        38
+   macro avg       0.95      0.96      0.95        38
+weighted avg       0.96      0.95      0.95        38
+
+
+n_neighbors = 3
+准确率: 0.8947
+              precision    recall  f1-score   support
+
+      setosa       1.00      1.00      1.00         8
+  versicolor       0.73      1.00      0.85        11
+   virginica       1.00      0.79      0.88        19
+
+    accuracy                           0.89        38
+   macro avg       0.91      0.93      0.91        38
+weighted avg       0.92      0.89      0.90        38
+
+
+n_neighbors = 5
+准确率: 0.8947
+              precision    recall  f1-score   support
+
+      setosa       1.00      1.00      1.00         8
+  versicolor       0.73      1.00      0.85        11
+   virginica       1.00      0.79      0.88        19
+
+    accuracy                           0.89        38
+   macro avg       0.91      0.93      0.91        38
+weighted avg       0.92      0.89      0.90        38
+
+
+n_neighbors = 7
+准确率: 0.9211
+              precision    recall  f1-score   support
+
+      setosa       1.00      1.00      1.00         8
+  versicolor       0.79      1.00      0.88        11
+   virginica       1.00      0.84      0.91        19
+
+    accuracy                           0.92        38
+   macro avg       0.93      0.95      0.93        38
+weighted avg       0.94      0.92      0.92        38
+
+
+n_neighbors = 9
+准确率: 0.9474
+              precision    recall  f1-score   support
+
+      setosa       1.00      1.00      1.00         8
+  versicolor       0.85      1.00      0.92        11
+   virginica       1.00      0.89      0.94        19
+
+    accuracy                           0.95        38
+   macro avg       0.95      0.96      0.95        38
+weighted avg       0.96      0.95      0.95        38
+
+
+n_neighbors = 11
+准确率: 0.9211
+              precision    recall  f1-score   support
+
+      setosa       1.00      1.00      1.00         8
+  versicolor       0.79      1.00      0.88        11
+   virginica       1.00      0.84      0.91        19
+
+    accuracy                           0.92        38
+   macro avg       0.93      0.95      0.93        38
+weighted avg       0.94      0.92      0.92        38
+
+
+n_neighbors = 15
+准确率: 0.9211
+              precision    recall  f1-score   support
+
+      setosa       1.00      1.00      1.00         8
+  versicolor       0.79      1.00      0.88        11
+   virginica       1.00      0.84      0.91        19
+
+    accuracy                           0.92        38
+   macro avg       0.93      0.95      0.93        38
+weighted avg       0.94      0.92      0.92        38
+
+
+n_neighbors = 20
+准确率: 0.8947
+              precision    recall  f1-score   support
+
+      setosa       1.00      1.00      1.00         8
+  versicolor       0.73      1.00      0.85        11
+   virginica       1.00      0.79      0.88        19
+
+    accuracy                           0.89        38
+   macro avg       0.91      0.93      0.91        38
+weighted avg       0.92      0.89      0.90        38
+
+
+================================================================================
+【2. 测试不同的权重方法 (weights)】
+--------------------------------------------------------------------------------
+
+weights = 'uniform'
+准确率: 0.8947
+              precision    recall  f1-score   support
+
+      setosa       1.00      1.00      1.00         8
+  versicolor       0.73      1.00      0.85        11
+   virginica       1.00      0.79      0.88        19
+
+    accuracy                           0.89        38
+   macro avg       0.91      0.93      0.91        38
+weighted avg       0.92      0.89      0.90        38
+
+
+weights = 'distance'
+准确率: 0.9474
+              precision    recall  f1-score   support
+
+      setosa       1.00      1.00      1.00         8
+  versicolor       0.85      1.00      0.92        11
+   virginica       1.00      0.89      0.94        19
+
+    accuracy                           0.95        38
+   macro avg       0.95      0.96      0.95        38
+weighted avg       0.96      0.95      0.95        38
+
+
+================================================================================
+【3. 测试不同的距离度量方法 (metric)】
+--------------------------------------------------------------------------------
+
+metric = 'euclidean'
+准确率: 0.8947
+              precision    recall  f1-score   support
+
+      setosa       1.00      1.00      1.00         8
+  versicolor       0.73      1.00      0.85        11
+   virginica       1.00      0.79      0.88        19
+
+    accuracy                           0.89        38
+   macro avg       0.91      0.93      0.91        38
+weighted avg       0.92      0.89      0.90        38
+
+
+metric = 'manhattan'
+准确率: 0.9211
+              precision    recall  f1-score   support
+
+      setosa       1.00      1.00      1.00         8
+  versicolor       0.79      1.00      0.88        11
+   virginica       1.00      0.84      0.91        19
+
+    accuracy                           0.92        38
+   macro avg       0.93      0.95      0.93        38
+weighted avg       0.94      0.92      0.92        38
+
+
+metric = 'minkowski'
+准确率: 0.8947
+              precision    recall  f1-score   support
+
+      setosa       1.00      1.00      1.00         8
+  versicolor       0.73      1.00      0.85        11
+   virginica       1.00      0.79      0.88        19
+
+    accuracy                           0.89        38
+   macro avg       0.91      0.93      0.91        38
+weighted avg       0.92      0.89      0.90        38
+
+
+================================================================================
+【4. 测试不同的算法 (algorithm)】
+--------------------------------------------------------------------------------
+
+algorithm = 'auto'
+准确率: 0.8947
+              precision    recall  f1-score   support
+
+      setosa       1.00      1.00      1.00         8
+  versicolor       0.73      1.00      0.85        11
+   virginica       1.00      0.79      0.88        19
+
+    accuracy                           0.89        38
+   macro avg       0.91      0.93      0.91        38
+weighted avg       0.92      0.89      0.90        38
+
+
+algorithm = 'ball_tree'
+准确率: 0.8947
+              precision    recall  f1-score   support
+
+      setosa       1.00      1.00      1.00         8
+  versicolor       0.73      1.00      0.85        11
+   virginica       1.00      0.79      0.88        19
+
+    accuracy                           0.89        38
+   macro avg       0.91      0.93      0.91        38
+weighted avg       0.92      0.89      0.90        38
+
+
+algorithm = 'kd_tree'
+准确率: 0.8947
+              precision    recall  f1-score   support
+
+      setosa       1.00      1.00      1.00         8
+  versicolor       0.73      1.00      0.85        11
+   virginica       1.00      0.79      0.88        19
+
+    accuracy                           0.89        38
+   macro avg       0.91      0.93      0.91        38
+weighted avg       0.92      0.89      0.90        38
+
+
+algorithm = 'brute'
+准确率: 0.8947
+              precision    recall  f1-score   support
+
+      setosa       1.00      1.00      1.00         8
+  versicolor       0.73      1.00      0.85        11
+   virginica       1.00      0.79      0.88        19
+
+    accuracy                           0.89        38
+   macro avg       0.91      0.93      0.91        38
+weighted avg       0.92      0.89      0.90        38
+
+
+================================================================================
+【5. 测试不同的 p 值 (Minkowski距离的幂参数)】
+--------------------------------------------------------------------------------
+
+p = 1 (manhattan)
+准确率: 0.9211
+              precision    recall  f1-score   support
+
+      setosa       1.00      1.00      1.00         8
+  versicolor       0.79      1.00      0.88        11
+   virginica       1.00      0.84      0.91        19
+
+    accuracy                           0.92        38
+   macro avg       0.93      0.95      0.93        38
+weighted avg       0.94      0.92      0.92        38
+
+
+p = 2 (euclidean)
+准确率: 0.8947
+              precision    recall  f1-score   support
+
+      setosa       1.00      1.00      1.00         8
+  versicolor       0.73      1.00      0.85        11
+   virginica       1.00      0.79      0.88        19
+
+    accuracy                           0.89        38
+   macro avg       0.91      0.93      0.91        38
+weighted avg       0.92      0.89      0.90        38
+
+
+p = 3 (minkowski-3)
+准确率: 0.8947
+              precision    recall  f1-score   support
+
+      setosa       1.00      1.00      1.00         8
+  versicolor       0.73      1.00      0.85        11
+   virginica       1.00      0.79      0.88        19
+
+    accuracy                           0.89        38
+   macro avg       0.91      0.93      0.91        38
+weighted avg       0.92      0.89      0.90        38
+
+
+p = 4 (minkowski-4)
+准确率: 0.8947
+              precision    recall  f1-score   support
+
+      setosa       1.00      1.00      1.00         8
+  versicolor       0.73      1.00      0.85        11
+   virginica       1.00      0.79      0.88        19
+
+    accuracy                           0.89        38
+   macro avg       0.91      0.93      0.91        38
+weighted avg       0.92      0.89      0.90        38
+
+
+================================================================================
+【参数对比汇总】
+================================================================================
+                 参数      准确率
+      n_neighbors=1 0.947368
+      n_neighbors=9 0.947368
+   weights=distance 0.947368
+      n_neighbors=7 0.921053
+     n_neighbors=11 0.921053
+     n_neighbors=15 0.921053
+                p=1 0.921053
+   metric=manhattan 0.921053
+algorithm=ball_tree 0.894737
+                p=3 0.894737
+                p=2 0.894737
+    algorithm=brute 0.894737
+  algorithm=kd_tree 0.894737
+   metric=euclidean 0.894737
+     algorithm=auto 0.894737
+   metric=minkowski 0.894737
+      n_neighbors=3 0.894737
+    weights=uniform 0.894737
+     n_neighbors=20 0.894737
+      n_neighbors=5 0.894737
+                p=4 0.894737
+
+最佳参数组合:
+n_neighbors=1 - 准确率: 0.9474
+
+
+The accuracy of K-Nearest Neighbor Classifier is 0.9473684210526315
+The accuracy of K-Nearest Neighbor Classifier is 0.9473684210526315

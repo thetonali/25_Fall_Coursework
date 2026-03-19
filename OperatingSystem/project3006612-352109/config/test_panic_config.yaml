@@ -1,0 +1,19 @@
+# Linux 系统异常检测工具 - Panic 测试日志配置文件
+
+# 日志文件源（只使用 Panic 测试日志）
+log_sources:
+  - test_logs/test_panic.log
+
+# 监控间隔（秒）
+monitor_interval: 5
+
+# 检测规则配置
+rules:
+  # Panic (系统崩溃)
+  panic:
+    patterns:
+      - 'Kernel panic'
+      - 'kernel panic - not syncing'
+      - 'panic occurred'
+    severity: critical
+    description: 系统崩溃(Panic)

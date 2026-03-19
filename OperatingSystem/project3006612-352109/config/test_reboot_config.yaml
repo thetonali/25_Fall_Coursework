@@ -1,0 +1,21 @@
+# Linux 系统异常检测工具 - Reboot 测试日志配置文件
+
+# 日志文件源（只使用 Reboot 测试日志）
+log_sources:
+  - test_logs/test_reboot.log
+
+# 监控间隔（秒）
+monitor_interval: 5
+
+# 检测规则配置
+rules:
+  # Reboot (系统重启)
+  reboot:
+    patterns:
+      - 'system is going down'
+      - 'reboot: machine restart'
+      - 'systemd.*Shutting down'
+      - 'kernel: \[.*\] Linux version'
+      - 'systemd-shutdown.*Sending SIGTERM'
+    severity: warning
+    description: 系统重启

@@ -1,0 +1,20 @@
+# Linux 系统异常检测工具 - Oops 测试日志配置文件
+
+# 日志文件源（只使用 Oops 测试日志）
+log_sources:
+  - test_logs/test_oops.log
+
+# 监控间隔（秒）
+monitor_interval: 5
+
+# 检测规则配置
+rules:
+  # Oops (内核错误)
+  oops:
+    patterns:
+      - 'kernel BUG at'
+      - 'Oops:'
+      - 'general protection fault'
+      - 'unable to handle kernel'
+    severity: critical
+    description: 内核错误(Oops)

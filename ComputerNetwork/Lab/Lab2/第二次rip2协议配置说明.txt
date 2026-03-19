@@ -1,0 +1,51 @@
+【202.203.168.0--202.203.179.254】
+https://www.cnblogs.com/hark0623/p/6547432.html
+1、各个小组根据给定的ip地址范围划给4个部门，自己规划设计ip地址，需要进行子网划分但子网掩码的长度一致；为各个网段、路由器的各个接口设置ip地址、各个主机设置ip地址和缺省网关。
+   涉及的命令如下：
+   [quidway]interface GigabitEthernet 0/0/0        % 进入接口视图
+   [interface Ethernet 0/0]ip address ip-address   %参看帮助
+   [interface Ethernet 0/0]mtu 1492
+2、配置rip2，并使能各个网段。
+   涉及的命令有：
+   在接口视图下配置rip2:
+   [Quidway-Ethernet 0/0]rip version 2    % 配置rip2协议
+   在系统视图下： 
+   [quidway]rip   %进入rip视图
+   [quidway-rip-1]version 2   配置rip2协议
+   [Quidway-rip-1]network network-address   % 按照自然网段书写即可
+3、会在系统视图下查看路由表信息，会在rip视图下查看路由表信息。（可以使用？，查看rip视图下的所有命令，就可以看到）
+4、测试网络的连通性：各个路由器之间，各个主机之间，主机与路由器之间使用ping、tracert命令进行测试，如果出现问题，学会逐层地进行调试并发现问题。
+5、RIP2的报文认证实验：
+   对哪个路由的接口设置报文认证，就在相应路由器的相应接口试图下，进行如下配置可启动报文认证：
+   [Quidway-GigabitEthernet0/0/1]rip authentication-mode simple 123（password）
+   或者
+   [Quidway-GigabitEthernet0/0/1]rip authentication-mode md5 usual  A123rt（key-string ）
+   取消该接口上的报文认证：
+   [Quidway-GigabitEthernet0/0/1]undo rip authentication-mode
+   查看路有表中的信息，有什么变化。
+   1、如配置在RTE的e1口，观察前往RTB\RTD E0口网段和RTA\RTC E0口网段的路由表变化，即原有两条路由，都只剩一条路由。（二剩一）【两张图/三张图(舍近求远)】
+   2、观察RTC\RTD E2口网段路由表变化，最初由于RTE e1口关闭会消失前往此子网路由，过一段时间后，会找到从RTE e2口的另一条路由。此时可tracert pc 7、pc1。（舍近求远）
+   3、然后再shutdownRTE的E2口，则RTE上无任何前往其他子网的路由表。
+   4、然后再为RTE的E1口对端配置相同的密码，则经过RTE的E1口的路由会出现。
+禁用接口与启用接口：
+[Huawei]interface GigabitEthernet 0/0/1 进入端口号
+[Huawei-GigabitEthernet0/0/1]shutdown 禁用0/0/1端口
+[Huawei-GigabitEthernet0/0/1]undo shutdown启用0/0/1端口
+————————————————
+
+6、rip1和rip2协议共存实验
+   undo报文认证及shutdown。
+为某个路由器的某个接口设置rip1协议，为其对端的路由器设置rip2协议，等待一段时间后观察路由表的变化。RTE的路由表信息，与原来比较少了若干路由项，原因是RIP1无法学习到从RIP2发来的报文。
+
+   涉及的命令如下：
+   [Quidway-Ethernet 0/0]undo rip version
+   [Quidway-Ethernet 0/0]rip version 1
+   路由表将减少，
+202.201.68.0/22仅作为例子，小组需使用给定地址块。
+7、VLSM实验：各个小组自己规划设计ip地址，四个部门，每个部门应分别划为4/3/2/2个子部门（任意组合） 、需要进行子网划分且子网掩码的长度可以不等；为各个网段、路由器的各个接口设置ip地址、各个主机设置ip地址和缺省网关。
+8、重复2-6的所有操作和过程，需要注意的是对前面所有的操作和过程可以通过逐步地反向地使用undo命令即可，比如：可通过undo network network-addres取消该网段使能rip协议。
+
+注意：1、接口标号与物理拓扑图上的对应关系： 
+         Ethernet 0/0 <---> e0     Ethernet 0/1 <---> e1    Ethernet 1/0 <---> e2                 
+      2、不需要配置s0、s1等串口的ip地址，以及相应网络上的数据链路层协议。  
+      3、其他命令参照vrp文件夹下的路由协议.pdf中的rip配置。

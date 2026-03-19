@@ -1,0 +1,831 @@
+7-Up
+Adobo
+Agave Nectar
+Ale
+Alfalfa Sprouts
+Alfredo Sauce
+Almond Bark
+Almond Extract
+Almonds
+Amaretto
+Anchovy
+Anchovy Paste
+Apple Cider
+Apples
+Apple sauce
+Apricot Preserves
+Apricots
+Arrowroot
+Artichoke Hearts
+Artichokes
+Arugula
+Asparagus
+Atkins Sugar-Free Pancake Syrup
+Avocados
+Baby Corn
+Bacon
+Bagels
+Baguette
+Baking grease
+Baking Powder
+Baking Soda
+Bamboo Shoots
+Banana Peppers
+Bananas
+Barbecue Sauce
+Barley - Rolled
+Basil
+Bay Leaf
+Bean Sprouts
+Beans 
+Adzuki
+Cannellini
+Garbanzo
+Kidney Beans
+Lima Beans
+Beef
+Ribs
+Roast
+Steak
+Tenderloin
+Bouillon
+Bouillon Cube
+Beef Broth
+Beer
+Beets
+Bell Peppers
+Biscuits
+Bison
+Bisquick
+Black Bean Sauce
+Black Raspberry Liqueur
+Blackberries
+Blueberries
+Bok Choy
+Bottom Round Roast
+Brandy
+Bread
+Broccoli
+Brownie Mix
+Brussels Sprouts
+Bulgur
+Butter
+Buttermilk
+Butterscotch
+Cabbage
+Cake Mix
+Calamari
+Bacon
+Canola
+Capers
+Caramel
+Carrots
+Cashews
+Catfish
+Cauliflower
+Celery
+Cereals
+Cereal
+Chambord
+Champagne
+Chard
+Chayote
+Cheese
+Cherry
+Cherries
+Cherry Pie
+Chicken
+Chicken legs
+Chicken wings
+Chicken Bouillon
+Chicken Bouillon Granules
+Chicken Bouillon Powder
+Chicken Broth
+Chickpeas
+Chile
+Chipotle
+Serrano
+Chile Paste
+Chile Peppers
+Anaheim
+Chives
+Chocolate
+Chocolate Syrup
+Cilantro
+Cinnamon
+Cinnamon Sugar
+Clam Juice
+Clams
+Cloves
+Club Soda
+Cocktail Sauce
+Cocoa
+Cocoa Powder
+Coconut
+Cod
+Coffee
+Instant Coffee
+Coffee Flavored Liqueur
+Cognac
+Cointreau
+Coleslaw Mix
+Collard Greens
+Cooking Spray
+Cool Whip
+Cordial
+Corn
+Corn Bread Mix
+Corn Flakes
+Corn Husks
+Corn Syrup
+Corned Beef
+Cornmeal
+Cornstarch
+Cottage Cheese
+Couscous
+Crab
+Canned Crab
+Cranberries
+Cranberry
+Crawfish
+Cream Cheese
+Cream Corn
+Cream of Tartar
+Creme de Banana
+Creme de Cacao
+White Creme de Cacao
+Creme de Cassis
+Green Creme de Menthe
+White Creme de Menthe
+Creme Fraiche
+Crescent Roll Dough
+Crescent Rolls
+Cress
+Croutons
+Cucumbers
+Curacao
+Curacao - Blue
+Curacao - Orange
+Curry
+Curry Powder
+Curry Paste
+Daikon
+Dashi
+Dates
+Dill (fresh)
+Dressing - Ranch (Dry Mix)
+Dressing - Thousand Island
+Duck
+Edamame
+Egg Whites
+Eggnog
+Eggplant
+Eggs
+Enchilada Sauce
+Endive
+English Muffins
+Muffins
+Escarole
+Espresso
+Fennel
+Fennel Seed
+Filo Pastry
+Fish Sauce
+Fish
+Fish Stock
+Flat Rice Noodles
+Flatbread
+Flatbread Dough
+Flounder - Fillet
+Flour
+Unbleached Flour 
+All Purpose Flour 
+Bread Flour
+Cake Flour
+Chickpea Flour
+Corn Flour
+Italian Flour
+Pastry Flour 
+Rye Flour
+Self Rising Flour 
+Semolina Flour
+Wheat Flour
+Red Food Coloring
+French Fried Onions
+Frito
+Frosting
+Frozen stir fry vegetables
+Galliano
+Garlic
+Garlic Chives
+Gelatin
+Ghee
+Giblet Stock
+Gin
+Ginger
+Ginger Ale
+Gnocchi
+Goldschlager
+Graham Crackers
+Granola
+Sweet Granola 
+Grapefruit
+Grappa
+Turkey Gravy 
+Beef Gravy
+Grenadine Syrup
+Grits
+Guar Gum
+Haddock
+Hake
+Half and Half
+Halibut
+Halibut Steak
+Ham
+Black Forest Ham 
+Ham Hock
+Hamburger
+Buns
+Bun
+Hamburger Buns
+Hashbrowns
+Hashbrown
+Hazelnut Liqueur
+Hazelnuts
+Hazlenut
+Heavy Cream
+Hoisin Sauce
+Honey
+Horseradish
+Hot Dogs
+Hot Sauce
+Hummus
+Ice
+Ice Cream
+Vanilla Ice Cream
+Ice Cream Cones
+Instant Hot Chocolate Mix
+Irish Cream
+Italian Dressing Mix
+Jagermeister
+Jalapenos
+Jam
+Jam - Apricot
+Jam - Blackcurrant
+Jam - Raspberry
+Jam - Strawberry
+Jello - Watermelon
+Jelly - Blueberry
+Jelly - Grape
+Jelly - Hot Pepper
+Jicama
+Apple juice
+Lemonade
+Orange juice
+Apple Juice
+Cranberry Juice
+Grapefruit Juice
+Lemonade Juice
+Limeade Juice
+Lychee Juice
+Mango Juice
+Orange Juice
+Pineapple Juice
+Pink Lemonade
+Pomegranate Juice
+Tomato Juice
+Juniper Berries
+Kahlua
+Kale
+Ketchup
+Kimchi
+Konbu
+Kumquats
+Lamb
+Ground Lamb
+Lamb Rack
+Lamb Shank
+Lamb Shoulder
+Leek
+Lemon
+Lemon Curd
+Lemon Extract
+Lemon Juice
+Lemongrass
+Lemons
+Lentils
+Lettuce
+Light Cream
+Lime Juice
+Kaffir Lime Leaves
+Limes
+Lime
+Limoncello
+Liquid Smoke Flavoring
+Lobster
+Lumpfish
+Macaroni
+Macaroni and Cheese
+Mackerel
+Malibu
+Malt Vinegar
+Mango
+Mangos
+Canned Mangos
+Manicotti
+Maple Syrup
+Margarine
+Marinara Sauce
+Orange Marmalade
+Marsala Wine
+Marshmallow Creme
+Marshmallows
+Masa Harina
+Mayonnaise
+Reduced Fat Mayonnaise
+Meatballs
+Midori
+Milk
+Almond Milk
+Coconut Milk
+Condensed Milk
+Evaporated Milk
+Skimmed Milk
+Soy Milk
+Milk - Whole
+Milk Chocolate
+Mincemeat
+Mint
+Mint Extract
+Mint Sauce
+Mirin
+Miso Paste
+Miso Paste
+Molasses
+Mushrooms
+Canned Mushrooms
+Mussels
+Mustard
+Mustard Seeds
+Nectarines
+Not Starch
+Nutella
+Nutritional Yeast
+Oatmeal
+Oats
+Okra
+Frozen Okra
+Olives
+Olive Oil
+Black Olives
+Calamata Olives
+Green Olives
+Onions
+Green Onions
+Pearl Onions
+Red Onions
+Spanish Onions
+White Onions
+Yellow Onions 
+Orange Liqueur
+Orange Roughy
+Oranges
+Mandarines
+Oregano
+Oxtail
+Oyster Sauce
+Oysters
+Pancake Mix
+Parsley
+Italian Parsley
+Parsnip
+Pasta
+Angel Hair
+Noodles
+Ditalini
+Egg Noodles
+Farfalle
+Fettuccine
+Fusilli
+Lasagna
+Linguine
+Macaroni
+Orzo
+Pasta Shells
+Penne
+Ravioli
+Rigatoni
+Risoni
+Rotini
+Spaghetti
+Spinach Noodles
+Tortellini
+Vermicelli
+Ziti
+Pastrami
+Liver Pate
+Pattypan
+Peaches
+Peanut Butter
+Peanut Oil
+Peanuts
+Pears
+Pearl Barley
+Peas
+Frozen Peas
+Black Eyed Peas
+Sugar Snap Peas
+Pecans
+Habanero
+Peppercorn
+Peppericini
+Pepperoncini
+Pepperoni
+Pepperdew
+Pernod Liqueur
+Pesto Sauce
+Pheasant
+Pickles
+Dill Pickles
+Sweet Pickles 
+Pie Crust
+Pimentos
+Pine Nuts
+Pineapples
+Canned Pineapple
+Pistachios
+Pizza Crust Dough
+Pizza Sauce
+Plums
+Polenta
+Poppy
+Pork
+Pork Butt
+Pork Chops
+Ground Pork
+Pork Loin
+Pork Roast
+Pork Salt
+Pork Shoulder
+Pork Spareribs
+Pork Steaks
+Pork Tenderloin
+Potato Chips
+Potato Flakes
+Potatoes
+Fingerling Potatoes
+Red Potatoes
+Sweet Potatoes
+Potatostarch
+Powdered Non-Dairy Creamer
+Prawns
+Prime Rib
+Prosciutto
+Chocolate Protein Powder
+Vanilla Protein Powder
+Chocolate Pudding
+Pudding Mix
+Sugar Free
+Puff Pastry
+Pumpkin
+Canned Pumpkin
+Pumpkin Puree
+Pumpkin Seeds
+Pumpkinseed Oil
+Queso Fresco
+Radish
+Raisins
+Ramen Noodles
+Ranch Dressing
+Raspberries
+Frozen Raspberries
+Red Bull
+Roasted Red Pepper
+Red Snapper
+Relish
+Rhubarb
+Rice
+Arborio
+Basmati
+Jasmine Rice
+Wild Rice
+Rice Paper
+Risotto
+Rose Nectar
+Rosemary
+Rotel
+Rum
+151 Proof Rum
+Captain Morgan Rum
+Coconut Rum
+Dark Rum
+Light Rum
+Malibu
+White Rum
+Rum Extract
+Russian Dressing
+Safflower Oil
+Sage Leaves
+Sake
+Salad Dressing
+Salad
+Salad Dressing - Balsamic Vinegarette
+Salad Dressing - Blue Cheese
+Salad Dressing - Catalina
+Salad Dressing - French
+Salad Dressing - Italian
+Salami
+Salmon
+Canned Salmon
+Fillet Salmon
+Steaks Salmon
+Salsa
+Salsa - Verde
+Saltine Crackers
+Sambuca
+Sardines
+Sauerkraut
+Sausage
+Sausages
+Andouille Sausag
+Beef Sausage
+Bratwurst Sausage
+Chicken Sausage
+Chorizo Sausage
+Italian Sausage
+Kielbasa Sausage
+Pork Sausage
+Smoked Sausage
+Turkey Sausage
+Scallions
+Scallops
+Bay Scallops
+Apple Schnapps
+Banana Schnapps
+Butterscotch Schnapps
+Peppermint Schnapps
+Sour Apple Schnapps
+Strawberry Schnapps
+Peach Schnaps
+Sea Bass
+Ajinomoto
+Allspice
+Bay Leaf
+Black Pepper
+Cajun
+Caraway Seed
+Cardamom
+Cayenne Pepper
+Celery Flakes
+Celery Salt
+Celery Seed
+Chili Powder
+Chinese Five Spice
+Chipotle Powder
+Cinnamon
+Cloves
+Ground Cloves
+Coarse Salt
+Coriander
+Creole
+Cumin
+Cumin Seeds
+Dill Weed
+Fajita
+Flax
+Galangal
+Garam Masala
+Garlic
+Garlic Powder
+Garlic Salt
+Ginger
+Ground Mace
+Herbes de Provence
+Jamaican Jerk
+Kosher Salt
+Lemon Pepper
+Marjoram
+Mixed Spice
+Montreal Steak Seasoning
+Mustard Powder
+Nutmeg
+Onion
+Onion Flakes
+Onion Powder
+Onion Salt
+Oregano
+Paprika
+Parsley
+Poultry
+Poultry Seasoning
+Red Pepper Flakes
+Rosemary
+Saffron
+Sage
+Salt
+Savory
+Sea Salt
+Seafood
+Seasoned Salt
+Anise
+Star Anise
+Steak Rub
+Summer Savory
+Taco
+Thyme
+Turmeric
+White Pepper
+Sesame Oil
+Sesame Seeds
+Shallots
+Raspberry
+Sherry
+Shiso Leaves
+Shortening
+Shrimp
+Baby Shrimp
+Silk
+Silverbeet
+Snow Peas
+Coke
+Dr. Pepper
+Sprite
+Water
+Soft Drinks
+Soup
+Cheddar Cheese
+Condensed Cream of Mushroom
+Cream of Broccoli
+Cream of Celery
+Cream of Chicken
+Cream of Mushroom
+Cream of Onion
+Creamy Tomato
+French Onion
+Golden Mushroom
+Vegetable Beef
+Sour Cream
+Sour Mix
+Soy Sauce
+Lite Soy Sauce
+Soya Powder
+Soybeans
+Soybean
+Spaghetti
+Spaghetti Sauce
+Spinach
+Frozen Spinach
+Splenda
+Spring Roll Wrappers
+Sprinkles - Chocolate
+Sprite
+Acorn Squash
+Butternut Squash
+Spaghetti Squash
+Summer Squash
+Yellow Squash
+Squid
+Frog legs
+Steak Sauce
+Steak Seasoning
+Strawberries
+Frozen Strawberries
+Stuffing
+Sugar 
+Brown Sugar
+Powdered Sugar
+White Sugar
+Sunflower
+Sweet and Sour
+Sweet Basil
+Swordfish
+Almond Syrup
+Syrup
+Strawberry
+Tabasco
+Tabasco Sauce
+Jalapeno
+Taco
+Taco Sauce
+Taco Shell
+Tahini
+Taquitos
+Tarragon
+Tartar
+Tea
+Green Tea
+Black Tea
+Tempeh
+Tequila
+White Tequila 
+Teriyaki
+Thyme
+Tilapia
+Tofu
+Tomatillos
+Tomato Paste
+Tomato Puree
+Tomato Sauce
+Tomatoes
+Tonic
+Tortilla
+Tortilla Chips
+Corn Tortillas
+Flour Tortillas 
+Triple Sec
+Trout
+Truffle
+Truffles
+Truffle Oil
+Tuna
+Canned Tuna
+Turkey
+Turkey Breast
+Ground Turkey
+Turkey Liver
+Turkey Stock
+Turnips
+Vanilla
+Vanilla Bean
+Vanilla Extract
+Veal
+Ground Veal
+Oil
+Vegetable Broth
+Vegetable Oil
+Vegetable Stock Cube
+Mixed Vegetables
+Burger
+Veggie Burger
+Vermouth
+Dry Vermouth
+Vinegar
+Apple Cider
+Balsamic
+Cider
+Red Wine
+Rice
+White Vinegar
+White Wine
+Wine
+Vodka
+Vodka Blue Raspberry
+Vodka Citrus
+Vodka Lemon
+Vodka Mandarin
+Vodka Orange
+Vodka Vanilla
+Walnut Oil
+Walnut
+Walnuts
+Wasabi
+Wasabi Powder
+Water
+Carbonated Water
+Chestnuts
+Watermelon
+Wheat
+Wheat Bran
+Wheat Germ
+Cream
+Whipped Cream
+Whiskey
+Bourbon
+Irish Whiskey
+Scotch Whisky
+White Chocolate
+Chablis
+Port
+Soave
+Sparkling Wine
+Won Ton
+Worcestershire
+Xanthan
+Yams
+Yeast
+Yogurt
+Savoy
+Yukina Savoy
+Zucchini
+Sun Dried Tomatoes
+Yellow Tomatoes
+Tonic Water
+Tortillas Corn
+Tortillas Flour
+Triple Sec
+Turnips
+Turnip
+Vanilla Bean
+Vanilla Extract
+Veal
+Veal Shank
+Vegetable Broth
+Vegetable Oil
+Vegetable Stock Cube
+Mixed Vegetables
+Veggie Burger
+Velveeta
+Verdemole
+Salt
+Pepper
+

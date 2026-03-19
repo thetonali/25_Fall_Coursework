@@ -1,0 +1,9 @@
+作业
+
+1、编写一个shell脚本，完成输入五个数字并进行升序和降序排序，打
+印出脚本内容和执行结果
+2、在虚拟机上安装linux (Oracle VM VirtualBox)
+3、构建一个基于centos或Ubuntu的容器，并在容器里面创建新的账户
+4、制作或下载一个mpi的singularity容器镜像，并能够运行
+5、安装编译gromacs
+https:/manual.gromacs.org/currentinstall-guide/index.html

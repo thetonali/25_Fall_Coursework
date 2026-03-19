@@ -1,0 +1,28 @@
+# 视频
+*.mp4
+*.mkv
+*.avi
+*.mov
+
+# 压缩包 / 软件安装包
+*.zip
+*.tar.gz
+*.tar
+*.7z
+*.iso
+
+# Python
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 日志
+*.log
+
+DataScience/Huaweiyun/software/

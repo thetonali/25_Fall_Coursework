@@ -1,0 +1,74 @@
+# Linux 系统异常检测工具 - 混合日志（包含正常日志和异常日志）配置文件
+
+# 日志文件源（只使用混合日志）
+log_sources:
+  - test_logs/test_mixed_with_normal.log
+
+# 监控间隔（秒）
+monitor_interval: 5
+
+# 检测规则配置
+rules:
+  # OOM (内存不足)
+  oom:
+    patterns:
+      - 'Out of memory'
+      - 'Kill process \d+ \(.*\) score'
+      - 'oom-killer'
+      - 'Killed process \d+'
+    severity: critical
+    description: 内存不足(OOM)
+  
+  # Oops (内核错误)
+  oops:
+    patterns:
+      - 'kernel BUG at'
+      - 'Oops:'
+      - 'general protection fault'
+      - 'unable to handle kernel'
+    severity: critical
+    description: 内核错误(Oops)
+  
+  # Panic (系统崩溃)
+  panic:
+    patterns:
+      - 'Kernel panic'
+      - 'kernel panic - not syncing'
+      - 'panic occurred'
+    severity: critical
+    description: 系统崩溃(Panic)
+  
+  # Deadlock (进程死锁)
+  deadlock:
+    patterns:
+      - 'possible deadlock'
+      - 'INFO: task .* blocked for more than'
+      - 'hung_task_timeout_secs'
+      - 'Task .* blocked for more than \d+ seconds'
+    severity: high
+    description: 进程死锁
+  
+  # Reboot (系统重启)
+  reboot:
+    patterns:
+      - 'system is going down'
+      - 'reboot: machine restart'
+      - 'systemd.*Shutting down'
+      - 'kernel: \[.*\] Linux version'
+      - 'systemd-shutdown.*Sending SIGTERM'
+    severity: warning
+    description: 系统重启
+  
+  # FS Exception (文件系统异常)
+  fs_exception:
+    patterns:
+      - 'EXT4-fs error'
+      - 'XFS.*error'
+      - 'I/O error.*dev'
+      - 'Read-only file system'
+      - 'filesystem read-only'
+      - 'Remounting filesystem read-only'
+      - 'filesystem error'
+      - 'BTRFS error'
+    severity: high
+    description: 文件系统异常
